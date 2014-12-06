@@ -1,0 +1,20 @@
+<ion-view title="Calendar">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item class="item-icon-right event" ng-repeat="event in events" type="item-text-wrap" href="#/tab/events/{{event.date}}">
+        <!--{{event.date | dateStr | date: 'MMM dd yyyy hh:mma'}}-->
+
+        <div class="date">
+          <span class="day">{{::event.date | dateStr | date: 'dd'}}</span>
+          <span class="month">{{::event.date | dateStr | date: 'MMM'}}</span>
+          <span class="year">{{::event.date | dateStr | date: 'yyyy'}}</span>
+          <span class="time">{{::event.date | dateStr | date: 'hh:mma'}}</span>
+          <span class="location">{{::event.location}}</span>
+         </div>
+
+        <i class="icon icon-accessory event-icon" ng-class="{'ion-camera': event.type === 'pictures', 'ion-ios7-stopwatch' : event.type === 'practice', 'ion-game-controller-b': event.type === 'game'}"></i>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

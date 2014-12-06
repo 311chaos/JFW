@@ -1,0 +1,22 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'firend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<!--<ion-view title="{{event.date | dateStr | date: 'MMM-dd hh:mma'}}">-->
+<ion-view title="{{event.type | uppercase}}">
+
+  <ion-content has-header="true" padding="true">
+    <div class="date">
+      <span class="day">{{::event.date | dateStr | date: 'dd'}}</span>
+      <span class="month">{{::event.date | dateStr | date: 'MMM'}}</span>
+      <span class="year">{{::event.date | dateStr | date: 'yyyy'}}</span>
+      <span class="time">{{::event.date | dateStr | date: 'hh:mma'}}</span>
+      <span class="location">{{::event.location}}</span>
+    </div>
+
+    <i class="icon icon-accessory event-icon" ng-class="{'ion-camera': event.type === 'pictures', 'ion-ios7-stopwatch' : event.type === 'practice', 'ion-game-controller-b': event.type === 'game'}"></i>
+
+  </ion-content>
+</ion-view>
