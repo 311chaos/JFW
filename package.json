@@ -52,6 +52,7 @@
     "https://github.com/driftyco/ionic-plugins-keyboard.git",
     "org.apache.cordova.statusbar",
     "org.apache.cordova.console",
-    "org.apache.cordova.splashscreen"
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.inappbrowser"
   ]
 }

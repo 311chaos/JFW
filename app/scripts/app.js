@@ -20,8 +20,8 @@ angular.module('MobileTest', ['ionic', 'ngCordova', 'config', 'MobileTest.contro
       StatusBar.styleDefault();
     }
     setTimeout(function() {
-      $cordovaSplashscreen.hide()
-    }, 2000)
+      $cordovaSplashscreen.hide();
+    }, 2000);
   });
 })
 

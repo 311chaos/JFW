@@ -14,6 +14,7 @@
       <span class="year">{{::event.date | dateStr | date: 'yyyy'}}</span>
       <span class="time">{{::event.date | dateStr | date: 'hh:mma'}}</span>
       <span class="location">{{::event.location}}</span>
+      <span>{{::event.home | homeAway}}</span>
     </div>
 
     <i class="icon icon-accessory event-icon" ng-class="{'ion-camera': event.type === 'pictures', 'ion-ios7-stopwatch' : event.type === 'practice', 'ion-game-controller-b': event.type === 'game'}"></i>

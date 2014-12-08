@@ -1,7 +1,22 @@
 <ion-view title="Home">
-  <ion-content class="has-header padding">
+  <ion-content class="has-header">
+    <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="doRefresh()">
+    </ion-refresher>
+    <h3 class="royal text-center mt0">Jaxxon Flaxxon Waxxon</h3>
     <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1415_JrJazz(1150x200).jpg?v=1.00" style="width:100%"/>
-    <h3 class="royal text-center">Jaxxon Flaxxon Waxxon</h3>
-    <h4></h4>
+
+    <div class="list">
+      <div class="list">
+        <div class="item item-divider">
+          December 6th 9:30PM
+        </div>
+        <div class="item item-text-wrap">
+          Welcome to Jr. Jazz 2014-2015
+          <div class="author">Aaron H.</div>
+        </div>
+      </div>
+    </div>
   </ion-content>
 </ion-view>
