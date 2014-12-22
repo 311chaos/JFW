@@ -16,7 +16,8 @@ angular.module('MobileTest.controllers', [])
         $scope.$broadcast('scroll.refreshComplete');
       }, 2000);
     };
-})
+  }
+)
 
 .controller('CalCtrl', function($scope, CalendarSrv) {
   $scope.events = CalendarSrv.all();

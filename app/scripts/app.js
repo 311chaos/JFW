@@ -21,7 +21,7 @@ angular.module('MobileTest', ['ionic', 'ngCordova', 'config', 'MobileTest.contro
     }
     setTimeout(function() {
       $cordovaSplashscreen.hide();
-    }, 2000);
+    }, 1000);
   });
 })
 

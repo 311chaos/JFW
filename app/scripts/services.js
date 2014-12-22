@@ -76,12 +76,37 @@ appServices.factory('CalendarSrv', function() {
       home: 'true'
     }, {
       type: 'practice',
-      date: 'December 3, 2014 19:45:00',
+      date: 'December 3, 2014 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }, {
       type: 'practice',
-      date: 'December 10, 2014 19:45:00',
+      date: 'December 10, 2014 20:00:00',
+      location: 'South Hills Middle',
+      home: 'true'
+    }, {
+      type: 'practice',
+      date: 'January 7, 2014 20:00:00',
+      location: 'South Hills Middle',
+      home: 'true'
+    }, {
+      type: 'practice',
+      date: 'January 14, 2014 20:00:00',
+      location: 'South Hills Middle',
+      home: 'true'
+    }, {
+      type: 'practice',
+      date: 'January 21, 2014 20:00:00',
+      location: 'South Hills Middle',
+      home: 'true'
+    }, {
+      type: 'practice',
+      date: 'January 28, 2014 20:00:00',
+      location: 'South Hills Middle',
+      home: 'true'
+    }, {
+      type: 'practice',
+      date: 'February 4, 2014 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }]
