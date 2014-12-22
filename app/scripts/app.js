@@ -6,7 +6,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('MobileTest', ['ionic', 'ngCordova', 'config', 'MobileTest.controllers', 'MobileTest.services', 'MobileTest.filters'])
+angular.module('jfwSchedule', ['ionic', 'ngCordova', 'config', 'jfwSchedule.controllers', 'jfwSchedule.services', 'jfwSchedule.filters'])
 
 .run(function($ionicPlatform, $cordovaSplashscreen) {
   $ionicPlatform.ready(function() {

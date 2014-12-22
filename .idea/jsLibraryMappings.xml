@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{mobileTest node_modules}" />
+    <file url="file://$USER_HOME$/jwfSchedule2014" libraries="{mobileTest node_modules}" />
     <file url="PROJECT" libraries="{cordova-DefinitelyTyped, cordova-ionic-DefinitelyTyped}" />
   </component>
 </project>

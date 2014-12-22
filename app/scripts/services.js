@@ -1,5 +1,5 @@
 'use strict';
-var appServices = angular.module('MobileTest.services', []);
+var appServices = angular.module('jfwSchedule.services', []);
 
 /**
  * A simple example service that returns some data.
@@ -86,27 +86,27 @@ appServices.factory('CalendarSrv', function() {
       home: 'true'
     }, {
       type: 'practice',
-      date: 'January 7, 2014 20:00:00',
+      date: 'January 7, 2015 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }, {
       type: 'practice',
-      date: 'January 14, 2014 20:00:00',
+      date: 'January 14, 2015 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }, {
       type: 'practice',
-      date: 'January 21, 2014 20:00:00',
+      date: 'January 21, 2015 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }, {
       type: 'practice',
-      date: 'January 28, 2014 20:00:00',
+      date: 'January 28, 2015 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }, {
       type: 'practice',
-      date: 'February 4, 2014 20:00:00',
+      date: 'February 4, 2015 20:00:00',
       location: 'South Hills Middle',
       home: 'true'
     }]

@@ -238,7 +238,7 @@ module.exports = function (grunt) {
       },
       fonts: {
         expand: true,
-        cwd: 'app/lib/ionic/release/fonts/',
+        cwd: 'app/lib/ionic/fonts/',
         dest: '<%= yeoman.app %>/fonts/',
         src: '*'
       },
@@ -326,8 +326,8 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/lib/angular-animate/angular-animate.js',
           '<%= yeoman.app %>/lib/angular-sanitize/angular-sanitize.js',
           '<%= yeoman.app %>/lib/angular-ui-router/release/angular-ui-router.js',
-          '<%= yeoman.app %>/lib/ionic/release/js/ionic.js',
-          '<%= yeoman.app %>/lib/ionic/release/js/ionic-angular.js',
+          '<%= yeoman.app %>/lib/ionic/js/ionic.js',
+          '<%= yeoman.app %>/lib/ionic/js/ionic-angular.js',
           '<%= yeoman.app %>/lib/angular-mocks/angular-mocks.js',
           '<%= yeoman.app %>/<%= yeoman.scripts %>/**/*.js',
           'test/mock/**/*.js',

@@ -1,5 +1,5 @@
 'use strict';
-angular.module('MobileTest.controllers', [])
+angular.module('jfwSchedule.controllers', [])
 
 .controller('HomeCtrl', function($scope) {
     $scope.doRefresh = function() {

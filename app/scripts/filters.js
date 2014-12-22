@@ -1,5 +1,5 @@
 'use strict';
-var appFilters = angular.module('MobileTest.filters', []);
+var appFilters = angular.module('jfwSchedule.filters', []);
 
 
 appFilters.filter('dateStr', function() {
